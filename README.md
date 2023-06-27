@@ -1,7 +1,10 @@
 # Earthquake Visualisation.
 --------------
-The repository visualises [] data set using javascript leaflet library. Using the index.html files attached we are able to get an understanding of Earthquake measurements while reflecting magnitude and depth values.
-  
+The repository visualises [] data set using javascript leaflet library.   
+Using the index.html files attached we are able to get an understanding of Earthquake measurements while reflecting magnitude and depth values.
+
+## Data Source
+
 ## Tools 
   
     
@@ -10,6 +13,9 @@ The repository visualises [] data set using javascript leaflet library. Using th
 - Activate python environment.
 - Ensure you have the folllowing dependencies installed:
 
+    
+### Images
+- View images in directory to see final visualisation
 
 ## Analysis Summary
 ### Leaflet Part 1
