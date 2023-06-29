@@ -17,16 +17,15 @@ Part 2 of this repository will include a map layer illustrating the techtonic pl
 - [Earthquake USGS - Last 7 Days ](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson).  
 - [Techtonic Plate Coordinates](https://github.com/fraxen/tectonicplates).  
 
-## Jave script Lirbaries Included 
+
+## Running Repository 
+- Clone repository locally.
+- Activate python environment.  
+
+## Javascript Libraries
 - Leaflet 
 - D3 JavaScript
 - chroma.js 
-    
-## Running Repository 
-- Clone repository locally.
-- Activate python environment.
-- Ensure you have the folllowing dependencies installed:
-
     
 ### Images
 - View images in directory to see final visualisation
