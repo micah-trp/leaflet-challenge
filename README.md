@@ -1,12 +1,19 @@
 # Earthquake Visualisation.
 --------------
+Located in the Pacific Ring Of Fire, Japan is the first on the list as nation with the greatest number of earthquakes- [source: world atlas website](https://www.worldatlas.com/articles/the-world-s-10-most-earthquake-prone-countries.html).  
+The purpose of this repository is to have an overview of the last 7 days of earthquakes at any time that the data is refreshed with a focus on earthquakes felt in Japan.  
+In Part 1 of this repository We will illustrate a worldmap with earthquaeks over the last 7 Days - where the marker of each reflects the magnitude of the earthquake by their size and the depth of the earthquake by colour. 
+Part 2 of this repository will include a map layer illustrating the techtonic plates in order to llustrate the relationship between tectonic plates and seismic activity. 
+
+--------------
 The repository visualises [] data set using javascript leaflet library.   
 Using the index.html files attached we are able to get an understanding of Earthquake measurements while reflecting magnitude and depth values.
 
 ## Data Source
 
 ## Tools 
-  
+
+
     
 ## Running Repository 
 - Clone repository locally.

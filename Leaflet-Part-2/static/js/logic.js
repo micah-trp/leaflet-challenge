@@ -1,3 +1,4 @@
+// In this script we will build on Leaflet Part 1 and include an overview of a new Techtonic Plate Layer
 // URL for earthquake data for the last 7 days
 let url_7Days = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson";
 
@@ -8,6 +9,7 @@ d3.json(url_7Days).then(function(data) {
 });
 
 // Define a function to calculate the marker radius based on magnitude
+// Note Magnitude is "feature.properties.mag" and is set as constant 
 function getMarkerRadius(magnitude) {
   // Adjust the scaling factor as needed
   const scalingFactor = 10;
@@ -68,9 +70,14 @@ function createFeatures(earthquakeData) {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
   });
 
+  let topo = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data: &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+  });
+
   // Create a baseMaps object.
   let baseMaps = {
-    "Street Map": street
+    "Street Map": street,
+    "Topographic Map": topo
   };
 
   // Create the legend control.
@@ -101,6 +108,7 @@ function createFeatures(earthquakeData) {
   // Create an overlay object to hold the earthquake layer.
   let overlayMaps = {
     "Earthquakes": earthquakes
+    // "Tectonic Plates": tectonic
   };
 
   // Create the map, giving it the streetmap and earthquake layers to display on load.
