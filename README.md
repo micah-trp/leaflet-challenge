@@ -35,6 +35,8 @@ Part 2 of this repository will include a map layer illustrating the techtonic pl
 ### Leaflet Part 1
 - From directory Leaflet-Part-1 load index.html
 - Associated logic.js shows earthquake markers with the marker size scaled to the magnitude level while marker color is varying to depth level.  
+- From the image "Part 1" we can see that in the last 7 days there have been 3 earthquakes with a depth of 90+, 2 in the north region and one in the south.  
+- The earthquake closest to the centre of Japan was on 24th of June with a magnitude of 4.8 and Depth of 39.27.  
 
     
 ### Leaflet Part 2
