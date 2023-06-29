@@ -87,11 +87,11 @@ function createFeatures(earthquakeData) {
     let div = L.DomUtil.create("div", "legend");
     const depthRanges = [
       { min: -10, max: 10, label: "-10 - 10" },
-      { min: 10.001, max: 30, label: "10.001 - 30" },
-      { min: 30.001, max: 50, label: "30.001 - 50" },
-      { min: 50.001, max: 70, label: "50.001 - 70" },
-      { min: 70.001, max: 90, label: "70.001 - 90" },
-      { min: 90.001, max: Infinity, label: "90.001+" }
+      { min: 10.001, max: 30, label: "10 - 30" },
+      { min: 30.001, max: 50, label: "30 - 50" },
+      { min: 50.001, max: 70, label: "50 - 70" },
+      { min: 70.001, max: 90, label: "70 - 90" },
+      { min: 90.001, max: Infinity, label: "90+" }
     ];
 
     // Create the HTML for the legend
